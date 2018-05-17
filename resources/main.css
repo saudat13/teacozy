@@ -8,19 +8,23 @@ body {
 
 /* Header Section */
 
-#logo {
+#header {
+  background-color: black;
   position: fixed;
-  width: 50px;
-
+  width: 1500px;
 }
 
 #menu {
   position: fixed;
   left: 800px;
-  text-decoration: underline;
-
 }
 
+/* Middle Section of the Page */
+
+#mission {
+  position: absolute;
+  text-align: center;
+}
 
 #main {
   background-color: black;
