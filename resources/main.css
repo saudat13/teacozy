@@ -6,16 +6,31 @@ body {
   opacity: 0.9;
 }
 
+/* Header Section */
+
+#logo {
+  position: fixed;
+  width: 50px;
+
+}
+
+#menu {
+  position: fixed;
+  left: 800px;
+  text-decoration: underline;
+
+}
+
+
 #main {
   background-color: black;
 }
 
 #month {
   width: 1000px;
-
 }
 
-#firstpic{
+#firstpic {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
   height: 500px;
   width: 800px;
