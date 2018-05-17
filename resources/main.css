@@ -9,3 +9,14 @@ body {
 #main {
   background-color: black;
 }
+
+#month {
+  width: 1000px;
+
+}
+
+#firstpic{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
+  height: 500px;
+  width: 800px;
+}
