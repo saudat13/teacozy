@@ -4,6 +4,7 @@ body {
   color: seashell;
   font-size: 22px;
   opacity: 0.9;
+  background-repeat: no-repeat;
 }
 
 /* Header Section */
@@ -43,13 +44,16 @@ body {
 }
 
 #firstpic {
-  width: 300px;
-  height: 200px;
-
 }
 
-#firstpic {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
-  height: 500px;
-  width: 800px;
+.teas {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
 }
