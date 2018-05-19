@@ -5,6 +5,7 @@ body {
   font-size: 22px;
   opacity: 0.9;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 /* Header Section */
@@ -38,22 +39,12 @@ body {
 
 /* Third Half of the Page */
 
-#month {
+.month {
   width: 1000px;
   align-content: center;
 }
 
-#firstpic {
-}
-
-.teas {
-  display: flex;
-  justify-content: space-between;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
-  font-weight: bold;
+img.teapictures {
+  width: 300px;
+  height: 200px;
 }
