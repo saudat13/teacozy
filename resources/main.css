@@ -48,3 +48,14 @@ img.teapictures {
   width: 300px;
   height: 200px;
 }
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space;
+}
+
+.teaimagesspacing {
+  display: flex;
+  flex-direction: column;
+}
