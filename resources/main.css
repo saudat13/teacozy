@@ -5,7 +5,15 @@ body {
   font-size: 22px;
   opacity: 0.9;
   background-repeat: no-repeat;
+  margin: 40px;
+}
+
+h2, h4, h5 {
   text-align: center;
+}
+
+h1 {
+  font-size: 22px;
 }
 
 /* Header Section */
@@ -13,7 +21,7 @@ body {
 #header {
   background-color: black;
   position: fixed;
-  width: 1200px;
+  width: 1600px;
   border-bottom: 1px solid seashell;
 }
 
@@ -41,7 +49,7 @@ body {
 
 .month {
   width: 1000px;
-  align-content: center;
+  text-align: center;
 }
 
 img.teapictures {
@@ -56,6 +64,18 @@ img.teapictures {
 }
 
 .teaimagesspacing {
-  display: flex;
-  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.locationpic {
+  height: 500px;
+  width: 1200px;
+}
+
+/* Footer */
+
+.copyright {
+  margin-left: 20px;
 }
