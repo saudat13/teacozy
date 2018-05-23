@@ -16,6 +16,10 @@ h1 {
   font-size: 22px;
 }
 
+h3 {
+  margin-left: 40px;
+}
+
 /* Header Section */
 
 #header {
@@ -72,6 +76,39 @@ img.teapictures {
 .locationpic {
   height: 500px;
   width: 1200px;
+}
+
+.location1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.locate {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.location1 .text-content {
+  width: 300px;
+  text-align: center;
+}
+
+.address {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.location2 .text-content {
+  width: 300px;
+  text-align: center;
+}
+
+.location3 .text-content {
+  width: 300px;
+  text-align: center;
 }
 
 /* Footer */
