@@ -47,6 +47,9 @@ h3 {
   top: 300px;
   width: 1200px;
   vertical-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Third Half of the Page */
@@ -62,17 +65,12 @@ img.teapictures {
   display: block;
 }
 
-.teas {
+.flex-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  align-content: space;
 }
-
-.teaimagesspacing {
-  width: 1000px;
-  margin: 0 auto;
-  display: inline-block;
-}
+/* Fourth Section of the Page */
 
 .locationpic {
   height: 500px;
