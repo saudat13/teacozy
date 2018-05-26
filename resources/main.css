@@ -79,8 +79,8 @@ img.teapictures {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
-.location {
-  display: block;
+.locations {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -104,6 +104,10 @@ img.teapictures {
 }
 
 /* Footer */
+
+.footer {
+  width: 200px;
+}
 
 .copyright {
   margin-left: 20px;
