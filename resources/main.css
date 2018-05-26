@@ -88,16 +88,19 @@ img.teapictures {
 #location1 {
   background-color: black;
   width: 300px;
+  text-align: center;
 }
 
 #location2 {
   background-color: black;
   width: 300px;
+  text-align: center;
 }
 
 #location3 {
   background-color: black;
   width: 300px;
+  text-align: center;
 }
 
 /* Footer */
