@@ -5,7 +5,8 @@ body {
   font-size: 22px;
   opacity: 0.9;
   background-repeat: no-repeat;
-  margin: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 h2, h4, h5 {
@@ -75,7 +76,7 @@ img.teapictures {
 
 .teacup {
   width: 1200px;
-  height: 700px;
+  height: 550px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
@@ -89,25 +90,26 @@ img.teapictures {
   background-color: black;
   width: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 
 #location2 {
   background-color: black;
   width: 300px;
   text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
 }
 
 #location3 {
   background-color: black;
   width: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 
 /* Footer */
-
-.footer {
-  width: 200px;
-}
 
 .copyright {
   margin-left: 20px;
