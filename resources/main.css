@@ -63,6 +63,7 @@ img.teapictures {
   width: 300px;
   height: 200px;
   display: block;
+  padding: 10px;
 }
 
 .flex-container {
