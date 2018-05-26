@@ -73,47 +73,31 @@ img.teapictures {
 }
 /* Fourth Section of the Page */
 
-.locationpic {
-  height: 500px;
+.teacup {
   width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
-.location1 {
-  display: flex;
-  justify-content: space-between;
+.location {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#location1 {
   background-color: black;
-}
-
-
-
-.locate {
-  display: flex;
-  flex-direction: column;
   width: 300px;
-
 }
 
-.location1 .text-content {
+#location2 {
+  background-color: black;
   width: 300px;
-  text-align: center;
 }
 
-.address {
-  margin-top: 15px;
-  margin-left: 40px;
-}
-
-.location2 .text-content {
+#location3 {
+  background-color: black;
   width: 300px;
-  text-align: center;
-}
-
-
-
-
-.location3 .text-content {
-  width: 300px;
-  text-align: center;
 }
 
 /* Footer */
